@@ -1,5 +1,5 @@
 import React from 'react';
-import { ScrollView, StyleSheet, View } from 'react-native';
+import { ScrollView, StyleSheet, View, Alert } from 'react-native';
 import FotoPerfil from './componentes/Fotoperfil';
 import Titulo from './componentes/Titulo';
 import Saudacao from './componentes/Saudacao';

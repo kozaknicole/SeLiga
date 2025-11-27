@@ -1,8 +1,8 @@
 import React from 'react';
 import { Text, StyleSheet } from 'react-native';
 
-export default function Titulo() {
-  return <Text style={styles.titulo}>Minha Rede de Contatos</Text>;
+export default function Titulo({ texto }) {
+  return <Text style={styles.titulo}>{texto}</Text>;
 }
 
 const styles = StyleSheet.create({
